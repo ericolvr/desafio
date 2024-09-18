@@ -26,10 +26,10 @@ Deverá exibir uma lista com todos os registros paginados<br><br>
 Exibir um registro pelo campo **id**
 
 **/alerts/branch** - **GET**<br>
-Deverá exibir todos os registros usando o campo **branch** com filtro, devem ser paginados
+Deverá exibir todos os registros usando o campo **branch** como filtro, devem ser paginados
 
 **/alerts/** - **POST**<br>
-Esse endpoint receberá os **alerts** enviados pela aplicação em anexo e deverá ser responsável pela inclusão no banco de dados. Nessa aplicação existem registros similares, mas que diferem pelo horário, campo **created**.<br><br>
+Esse endpoint receberá os **alerts** enviados pela aplicação em anexo e deverá ser responsável pela inclusão no banco de dados. Nessa aplicação existem registros similares, mas que **diferem pelo horário**, campo **created**.<br>
 Aqui temos uma regra:<br>
 - campos (**type** e **equipment**) forem iguais a algum registro já existente, mas com o horário **superior** a **30 minutos** deve-se **atualizar(update)** esse registro existente.<br>
 
