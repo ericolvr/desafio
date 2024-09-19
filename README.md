@@ -23,7 +23,7 @@ Deverá exibir uma lista com todos os registros paginados<br><br>
 Deverá exibir todos os registros usando o campo **action** como filtro, devem ser paginados
 
 **/persons/** - **POST**<br>
-Você pode encontrar um json com os registros ma serem inseridos nesse endreço:<br>
+Você pode encontrar um json com os registros ma serem inseridos nesse endereço:<br>
 http://ksksksksksks
 
 Existe uma regra:<br>
