@@ -26,7 +26,7 @@ Deverá exibir todos os registros usando o campo **action** como filtro, devem s
 Você pode encontrar um json com os registros à serem inseridos nesse endereço:<br>
 http://ec2-34-230-24-198.compute-1.amazonaws.com/records
 
-Existe uma regra:<br>
+Regra:<br>
 Quando os campos (**age**, **type** e **action**) forem iguais, e o campo **date** for superior a **30 minutos** o registro deverá ser inserido.<br>
 Caso o campo **date** for inferior a **30 minutos**, deve-se pegar o registro mais recente cujo os campos (**age**, **type** e **action**) são os mesmos e atualiza-lo.
 
