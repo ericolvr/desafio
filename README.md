@@ -27,13 +27,9 @@ Você pode encontrar um json com os registros ma serem inseridos nesse endreço:
 http://ksksksksksks
 
 Existe uma regra:<br>
-Quando os campos (**age**, **type** e **action**) forem iguais e o campo date for superior a 30 minutoso registro deverá ser inserido
+Quando os campos (**age**, **type** e **action**) forem iguais, e o campo **date** for superior a **30 minutos** o registro deverá ser inserido.<br>
+Caso o campo date for inferior a 30 minutos, deve-se pegar o último registro com os campos e atualiza-lo.
 
-Esse endpoint receberá os **alerts** enviados pela aplicação em anexo e deverá ser responsável pela inclusão no banco de dados. Nessa aplicação existem registros similares, mas que **diferem pelo horário**, campo **created**.<br>
-Aqui temos uma regra:<br>
-- campos (**type** e **equipment**) forem iguais a algum registro já existente, mas com o horário **superior** a **30 minutos** deve-se **atualizar(update)** esse registro existente.<br>
-
-Do contrário inserir um novo registro.
 
 
 
