@@ -24,7 +24,7 @@ Deverá exibir todos os registros usando o campo **action** como filtro, devem s
 
 **/persons/** - **POST**<br>
 Você pode encontrar um json com os registros à serem inseridos nesse endereço:<br>
-http://ec2-34-230-24-198.compute-1.amazonaws.com/records
+[http://ec2-34-230-24-198.compute-1.amazonaws.com/records](http://ec2-3-87-113-128.compute-1.amazonaws.com/records)
 
 Regra:<br>
 Quando os campos (**age**, **type** e **action**) forem iguais, e o campo **date** for superior a **30 minutos** o registro deverá ser inserido.<br>
